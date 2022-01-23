@@ -27,10 +27,10 @@ export const getDb = async () => {
   const textDb = await openDB('jate', 1)
   const transaction = textDb.transaction('jate', 'readonly')
   const store = transaction.objectStore('jate')
-  const request = store.getAll()
+  const request = store.get(1);
   const result = await request
-  console.log("data stored", result[0].content)
-  return result
+  console.log("data stored", result)
+  return result?.value;
 };
 
 initdb();
