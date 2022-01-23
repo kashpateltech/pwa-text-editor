@@ -40,7 +40,7 @@
 
 ## Screenshots
 
-![JATE](client/src/images/jate-screen.png)
+![JATE]![Screen Shot 2022-01-24 at 2 00 11 am](https://user-images.githubusercontent.com/88652187/150684700-b1242468-5ccd-449c-83ee-732c2d09e5d3.png)
 
 ## Setup
 
